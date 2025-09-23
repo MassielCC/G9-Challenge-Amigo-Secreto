@@ -22,12 +22,10 @@ function actualizarLista(amigos){
     let lista=document.getElementById('listaAmigos');
     // Limpiar lista existente
     lista.innerHTML="";
-    console.log("Numero de amigos: ", amigos.length);
+    // Agregar elementos a la lista
     for(let i=0; i< amigos.length; i++){
-        console.log(amigos[i]);
-        lista.innerHTML="<li>"+ amigos[i] +"</li>";
+        lista.innerHTML+="<li>"+ amigos[i] +"</li>";
     }
-    //console.log(amigos);
 }
 
 // Sorteo aleatorio
