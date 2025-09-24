@@ -1,7 +1,7 @@
 # G9-Challenge-Amigo-Secreto
 ![Portado del proyecto](image.png)
 
-## Descripción de su proyecto
+## Descripción del proyecto
 El proyecto consiste en una página que permite ingresar y guardar nombres de amigos en una lista, y luego realizar un sorteo aleatorio para determinar quién es el amigo secreto.   
 
 ## Funcionalidades
